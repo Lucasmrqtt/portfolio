@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@700&family=Kanit:wght@300&display=swap');
+
+body{
+   background-color:rgb(93, 109, 137);
+}
+
+#header{
+    background-image: linear-gradient(to bottom , #FF1919, #FFCE19);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(97, 97, 97, 0.598);
+}
+
+menu{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid; */
+    margin: 1px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+
+}
+
+menu a{
+    /* border: 2px solid; */
+    margin: 5px;
+}
+
+menu button{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    /* box-shadow:  -5px 5px 10px, 5px 5px 10px , 5px -5px 10px , -5px -5px 10px ; */
+    /* text-shadow: ; */
+    margin: 3px ; 
+    background-color: #4CAF50;
+    box-shadow: 0 7px #999;
+}
+
+menu button:hover{
+    background-color: #3e8e41;
+}
+
+menu button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+h1{
+  color: black;
+  font-size: 50px;
+  /* border: 2px solid; */
+  padding: 10px ;
+  margin-left: 50px;
+}
+
+
+#main{
+    background-image:linear-gradient(to bottom , #FFCE19, #19FF5A);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#headermain{
+    /* border: 2px solid; */
+}
+
+#sessao-jogos{
+     /* border: 2px solid;  */
+     margin: 20px;
+}
+
+.bloco-jogo{
+    /* border: 2px solid; */
+    display: flex;
+    /* margin: 50px; */
+    /* padding: 50px; */
+}
+
+.jogo{
+    margin: 20px;
+}
+
+img{
+    width: 300px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+
+  }
+
+main img:hover{
+    width: 350px;
+    opacity: 1; 
+}
+
+.links p a{
+    color:#ff0000;
+    text-decoration:none;
+}
+
+.links p a:visited{
+    color:#0000ff;
+    text-decoration:none;
+} 
+
+.links p a:hover{
+    text-decoration:underline;
+} 
+
+footer img:hover{
+    height: 150px;
+    width: 150px;
+    opacity: 1;
+}
+
+footer{
+    /* background-color: blueviolet; */
+    background-image: linear-gradient(to bottom , #19FF5A,#0D22FF );
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border-top: 1px solid rgb(97, 97, 97, 0.598);
+}
+
+#titleApp{
+    /* border: 3px solid ; */
+    font-size: 30px;
+}
+
+.App{
+    font-size: 15px;
+}
+
+.appIcon{
+    width: 100px;
+}
+
+#containerApps{
+    /* border: 3px solid ; */
+    display: flex; 
+    justify-content: space-around;
+    width: 80%;
+    /* background-color: white; */
+}
+
+.Apps{
+    /* border: 3px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#headerMe{
+    background-image: linear-gradient(to bottom, #19F4FF, #A600FF);
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(75, 75, 75);;
+}
+
+#about-me{
+    background-image: linear-gradient(to bottom ,#A600FF, #FF7519);
+    /* justify-content: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+}
+
+#about-me h2{ 
+    font-family: 'Kanit', sans-serif;
+    justify-content: center;
+    align-items: center; 
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+ }
+
+#about-me h3{
+    font-family: 'Andika', sans-serif;
+    box-shadow: 0px 0px 15px currentcolor;
+    border: 3px solid currentcolor;
+    padding: 3px;
+    margin: 30px;
+}
+
+#about-me dt{
+    font-family: 'Andika', sans-serif;
+    margin: 30px;
+}
+
+#footerMe{
+    background-image: linear-gradient(to bottom , #FF7519, #CDFF0D);
+    border: 1px solid rgb(75, 75, 75);
+    
+}
